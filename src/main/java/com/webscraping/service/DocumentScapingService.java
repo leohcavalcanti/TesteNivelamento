@@ -9,12 +9,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WebScaping {
+public class DocumentScapingService {
 
     private final String url;
     private final List<String> documentExtensions;
 
-    public WebScaping(String url){
+    public DocumentScapingService(String url){
         this.url = url;
         this.documentExtensions = List.of(".pdf");
     }
