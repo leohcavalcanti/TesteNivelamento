@@ -1,5 +1,3 @@
-package com.webscraping;
-
 import com.webscraping.controller.DocumentScraperController;
 import com.webscraping.service.DocumentScraperService;
 import com.webscraping.view.ConsoleView;
