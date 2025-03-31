@@ -37,7 +37,7 @@ public class DocumentScraperService {
         Elements links = doc.select("a[href]");
 
         for (Element link : links) {
-            String href = link.attr("abs.href");
+            String href = link.attr("abs:href");
             for (String ext : documentExtensions) {
                 if (href.toLowerCase().endsWith(ext)) {
                     Document document = new Document(href, ext);
