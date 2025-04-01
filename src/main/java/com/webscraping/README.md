@@ -5,7 +5,7 @@ Este projeto é um web scraper desenvolvido em Java que extrai links de document
 ## Funcionalidades
 
 Scraping: Identifica links para documentos em uma página web.
-Download: Baixa os documentos encontrados para uma pasta local (downloaded_docs).
+Download: Baixa os documentos encontrados para uma pasta local (download_docs).
 Compactação: Cria um arquivo ZIP (documentos.zip) com todos os documentos baixados.
 Configuração: Usa o User-Agent do Microsoft Edge para simular um navegador real.
 
